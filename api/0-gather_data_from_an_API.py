@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-Python script that, using this REST API, for a given employee ID,
-returns information about his/her TODO list progress.
+Script to gather data from an API
+==> "requests" module allows us to send HTTP Requests
+The request returns a Response Object with all data
+(content, encoding, status, etc...)
 """
 # import json
 import requests
