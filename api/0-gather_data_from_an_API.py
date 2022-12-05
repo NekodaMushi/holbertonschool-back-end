@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 """
 Script to gather data from an API
-==> "requests" module allows us to send HTTP Requests
-The request returns a Response Object with all data
-(content, encoding, status, etc...)
 """
-# import json
 import requests
 from sys import argv
 
